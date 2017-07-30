@@ -1,0 +1,126 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+h2, h3, h4{
+  margin: 10px;
+}
+h5{
+  margin: 30px;
+}
+.header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  z-index: 999;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.logo{
+  display: flex;
+
+}
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+nav span a{
+  display: inline-block;
+  text-decoration: underline;
+  padding-right: 15px;
+  color: white;
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 69px;
+  align-items: center;
+}
+.featured-image{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  background-image: url("/Tea-cozy/resources/images/mission-background.jpg");
+}
+.mission{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  z-index: 1;
+}
+.tea-of-the-month{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2#featured-tea{
+  width:100%
+}
+h4#what-is-steeping{
+  width:100%;
+}
+#featured{
+  padding:70px 0px;
+}
+.featured-tea{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: 10px;
+}
+.featured-tea img{
+  height: 200px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.locations{
+  height: 500px;
+  width:1200px;
+  background-image: url("/Tea-cozy/resources/images/locations-background.jpg");
+  padding-top: 70px;
+}
+.location-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2#locations {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.location{
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  z-index: 1;
+  opacity: 1;
+}
+.location span, .location h3{
+  margin: 22px;
+}
+footer{
+  width:100%;
+}
+.footer-info{
+  width: 100%;
+  display: flex;
+}
+.copyright{
+  text-align: left;
+  display: flex
+  margin-left: 20px;
+}
